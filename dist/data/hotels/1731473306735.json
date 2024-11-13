@@ -1,0 +1,42 @@
+{
+  "title": "Mountain Escape",
+  "description": "A peaceful lodge surrounded by mountains and nature.",
+  "guestCount": 6,
+  "bedroomCount": 3,
+  "bathroomCount": 2,
+  "amenities": [
+    "Fireplace",
+    "Mountain View",
+    "Hiking Trails"
+  ],
+  "hostInformation": {
+    "name": "John Smith",
+    "contact": "john.smith@example.com"
+  },
+  "address": "456 Mountain Pass, Rocky Hills",
+  "latitude": 39.5501,
+  "longitude": -105.7821,
+  "rooms": [
+    {
+      "hotelSlug": "mountain-escape",
+      "roomSlug": "alpine-suite",
+      "roomImage": "/data/images/alpine-suite.jpg",
+      "roomTitle": "Alpine Suite",
+      "bedroomCount": 2
+    },
+    {
+      "hotelSlug": "mountain-escape",
+      "roomSlug": "cozy-cabin",
+      "roomImage": "/data/images/cozy-cabin.jpg",
+      "roomTitle": "Cozy Cabin",
+      "bedroomCount": 1
+    }
+  ],
+  "slug": "mountain-escape",
+  "id": "1731473306735",
+  "images": [
+    "/data/images/1731473524179-382566350-pic2.jpg",
+    "/data/images/1731473524193-465903551-pic4.jpg",
+    "/data/images/1731473524206-111029392-pic6.jpg"
+  ]
+}

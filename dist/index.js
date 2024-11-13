@@ -15,13 +15,11 @@ app.use('/api', hotelRoutes_1.default);
 app.get('/', (req, res) => {
     res.send('Server is running!');
 });
-// Log the environment to verify
-console.log(`Running in environment: ${process.env.NODE_ENV}`);
+// Type the server variable explicitly as http.Server or undefined
 let server;
-// Ensure the server does not start listening when in test environment
 if (process.env.NODE_ENV !== 'test') {
-    const port = 3000;
-    app.listen(port, () => {
+    const port = process.env.PORT || 3000;
+    exports.server = server = app.listen(port, () => {
         console.log(`Server listening on port ${port}`);
     });
 }

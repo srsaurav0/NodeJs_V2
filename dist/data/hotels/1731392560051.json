@@ -1,21 +1,30 @@
 {
-  "title": "Mountain Retreat",
-  "description": "A serene retreat located in the heart of the mountains, perfect for a peaceful getaway.",
+  "title": "Updated Seaside Retreat",
+  "description": "An updated description for the seaside retreat with a luxurious experience.",
   "guestCount": 5,
   "bedroomCount": 3,
   "bathroomCount": 2,
   "amenities": [
-    "Mountain View",
-    "Hiking Trails",
-    "Hot Tub",
-    "Fireplace"
+    "WiFi",
+    "Ocean View",
+    "Private Pool"
   ],
   "hostInformation": {
-    "name": "Emily Johnson",
-    "contact": "emily.johnson@example.com"
+    "name": "Jane Doe Updated",
+    "contact": "jane.updated@example.com"
   },
-  "address": "789 Mountain Rd, Aspen, CO 81611",
-  "latitude": 39.1911,
-  "longitude": -106.8175,
-  "id": "1731392560051"
+  "address": "456 Ocean Drive, Seaside City Updated",
+  "latitude": 36.7785,
+  "longitude": -119.4175,
+  "id": "1731392560051",
+  "rooms": [
+    {
+      "hotelSlug": "updated-seaside-retreat",
+      "roomSlug": "updated-ocean-suite",
+      "roomImage": "/data/images/updated-ocean-suite.jpg",
+      "roomTitle": "Updated Ocean Suite",
+      "bedroomCount": 2
+    }
+  ],
+  "slug": "updated-seaside-retreat"
 }
