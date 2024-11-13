@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "title": "Luxury Hotel",
+    "description": "A luxury hotel with an amazing view.",
+    "guestCount": 10,
+    "bedroomCount": 5,
+    "bathroomCount": 3,
+    "amenities": [
+      "Pool",
+      "Spa",
+      "Gym"
+    ],
+    "hostInformation": {
+      "name": "John Doe",
+      "contact": "john@example.com"
+    },
+    "address": "123 Luxury St, Beverly Hills, CA 90210",
+    "latitude": 34.07362,
+    "longitude": -118.400356
+  },
+  {
+    "id": "2",
+    "title": "Luxury Hotel",
+    "description": "A luxury hotel with an amazing view.",
+    "guestCount": 10,
+    "bedroomCount": 5,
+    "bathroomCount": 3,
+    "amenities": [
+      "Pool",
+      "Spa",
+      "Gym"
+    ],
+    "hostInformation": {
+      "name": "John Doe",
+      "contact": "john@example.com"
+    },
+    "address": "123 Luxury St, Beverly Hills, CA 90210",
+    "latitude": 34.07362,
+    "longitude": -118.400356
+  },
+  {
+    "id": "3",
+    "title": "Beachside Resort",
+    "description": "A cozy beachside resort perfect for a summer vacation.",
+    "guestCount": 15,
+    "bedroomCount": 7,
+    "bathroomCount": 5,
+    "amenities": [
+      "Beach Access",
+      "Private Pool",
+      "Barbecue Area"
+    ],
+    "hostInformation": {
+      "name": "Jane Smith",
+      "contact": "jane@example.com"
+    },
+    "address": "456 Ocean Breeze Ave, Malibu, CA 90265",
+    "latitude": 34.025919,
+    "longitude": -118.779757
+  }
+]
