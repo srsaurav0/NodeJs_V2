@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "script.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=development tsc && node ./dist/index.js",
+    "start": "cross-env NODE_ENV=development tsc && node ./src/index.js",
     "build": "tsc",
     "test": "cross-env NODE_ENV=test jest",
     "env-test": "cross-env NODE_ENV=development node env-test.js"
